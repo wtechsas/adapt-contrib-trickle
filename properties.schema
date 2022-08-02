@@ -8,7 +8,7 @@
       "type": "string",
       "required": true,
       "title": "Contenido incompleto",
-      "default": "Hay contenido incompleto arriba. Debe completarllo antes de continuar con el curso.",
+      "default": "Hay contenido incompleto arriba. Debe completarllo antes de continuar con el Recurso.",
       "inputType": "Text",
       "validators": [],
       "translatable": true
