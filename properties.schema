@@ -75,14 +75,16 @@
                   "required": false,
                   "title": "Habilitar trickle o goteo",
                   "inputType": "Checkbox",
-                  "validators": []
+                  "validators": [],
+                  "help": "Permite recorrer un recurso por secciones más pequeñas"
                 },
                 "_autoScroll": {
                   "type": "boolean",
                   "required": false,
                   "title": "Desplazarse automáticamente",
                   "inputType": "Checkbox",
-                  "validators": []
+                  "validators": [],
+                  "help": "Cuando se quiere ir a otra sección, la vista se mueve automáticamente hacia el siguiente bloque"
                 },
                 "_scrollDuration": {
                   "type": "number",
