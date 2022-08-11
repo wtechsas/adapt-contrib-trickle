@@ -150,7 +150,8 @@
                       "required": false,
                       "title": "Activado",
                       "inputType": "Checkbox",
-                      "validators": []
+                      "validators": [],
+                      "help": "Hace refencia a las opciones disponibles para controlar el comportamiento del botón (continuar o empezar) segun sea el caso. Incluyendo su aspecto."
                     },
                     "_styleBeforeCompletion": {
                       "type": "string",
@@ -193,7 +194,7 @@
                         "disabled"
                       ],
                       "default": "hidden",
-                      "title": "Visibilidad definitiva",
+                      "title": "Visibilidad final",
                       "inputType": {
                         "type": "Select",
                         "options": [
@@ -222,7 +223,8 @@
                       "default": true,
                       "title": "Ancho completo",
                       "inputType": "Checkbox",
-                      "validators": []
+                      "validators": [],
+                      "help": "Si esta activado, el botón de (empezar o continuar) ocupa todo el ancho de la pantalla"
                     },
                     "_autoHide": {
                       "type": "boolean",
@@ -266,7 +268,8 @@
                       "title": "Botón de texto",
                       "inputType": "Text",
                       "validators": [],
-                      "translatable": true
+                      "translatable": true,
+                      "help": "Establece el texto del botón para ir a la siguiente sección"
                     },
                     "ariaLabel": {
                       "type": "string",
@@ -275,7 +278,8 @@
                       "title": "Botón Aria Etiqueta",
                       "inputType": "Text",
                       "validators": [],
-                      "translatable": true
+                      "translatable": true,
+                      "help": "Es el texto que lee el lector de pantalla cuando este se posiciona encima del botón ir a la siguiente sección."
                     },
                     "startText": {
                       "type": "string",
@@ -284,7 +288,7 @@
                       "title": "Texto del primer botón",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Solo en artículos cuando 'Habilitar en bloqueos secundarios' se establece en verdadero",
+                      "help": "Texto del botón al inicio de todas las secciones",
                       "translatable": true
                     },
                     "startAriaLabel": {
@@ -294,7 +298,7 @@
                       "title": "Etiqueta Aria del primer botón",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Solo en artículos cuando 'Habilitar en bloqueos secundarios' se establece en verdadero",
+                      "help": "Es el texto que lee el lector de pantalla cuando este se posiciona encima del primer botón de todas las secciones",
                       "translatable": true
                     },
                     "finalText": {
@@ -304,7 +308,7 @@
                       "title": "Texto final del botón",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Solo en artículos cuando 'Habilitar en bloqueos secundarios' se establece en verdadero",
+                      "help": "Texto del botón al final de todas las secciones",
                       "translatable": true
                     },
                     "finalAriaLabel": {
@@ -314,7 +318,7 @@
                       "title": "Etiqueta de Aria del botón final",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Solo en artículos cuando 'Habilitar en bloqueos secundarios' se establece en verdadero",
+                      "help": "Es el texto que lee el lector de pantalla cuando este se posiciona encima del último botón de todas las secciones",
                       "translatable": true
                     },
                     "_component": {
