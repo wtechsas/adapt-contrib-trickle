@@ -73,6 +73,7 @@
                 "_isEnabled": {
                   "type": "boolean",
                   "required": false,
+                  "default": true,
                   "title": "Habilitar trickle o goteo",
                   "inputType": "Checkbox",
                   "validators": [],
@@ -81,6 +82,7 @@
                 "_autoScroll": {
                   "type": "boolean",
                   "required": false,
+                  "default": true,
                   "title": "Desplazarse automáticamente",
                   "inputType": "Checkbox",
                   "validators": [],
@@ -101,6 +103,7 @@
                 "_onChildren": {
                   "type": "boolean",
                   "required": false,
+                  "default": true,
                   "title": "Habilitar en bloques secundarios",
                   "inputType": "Checkbox",
                   "validators": [],
@@ -149,6 +152,7 @@
                       "type": "boolean",
                       "required": false,
                       "title": "Activado",
+                      "default": true,
                       "inputType": "Checkbox",
                       "validators": [],
                       "help": "Hace refencia a las opciones disponibles para controlar el comportamiento del botón (continuar o empezar) segun sea el caso. Incluyendo su aspecto."
@@ -377,7 +381,7 @@
                 "_isEnabled": {
                   "type": "boolean",
                   "required": false,
-                  "default": false,
+                  "default": true,
                   "title": "Habilitar goteo",
                   "inputType": "Checkbox",
                   "validators": []
@@ -385,7 +389,7 @@
                 "_isInherited": {
                   "type": "boolean",
                   "required": false,
-                  "default": false,
+                  "default": true,
                   "title": "Heredar configuración del artículo principal",
                   "inputType": "Checkbox"
                 },
