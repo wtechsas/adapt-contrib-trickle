@@ -309,7 +309,7 @@
                       "type": "string",
                       "required": false,
                       "default": "Finalizar",
-                      "title": "Texto final del botón",
+                      "title": "Texto del botón final",
                       "inputType": "Text",
                       "validators": [],
                       "help": "Texto del botón al final de todas las secciones",
