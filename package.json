@@ -5,7 +5,7 @@
   "homepage": "https://github.com/wtechsas/adapt-contrib-trickle",
   "bugs": "https://github.com/wtechsas/adapt-contrib-trickle/issues",
   "extension" : "trickle",
-  "displayName" : "Trickle - Goteo",
+  "displayName" : "Efecto en cascada",
   "description": "Una extensión que permite bloquear u ocultar el contenido de una página de manera vertical",
   "main": "/js/adapt-contrib-trickle.js",
   "keywords": [
