@@ -25,7 +25,7 @@
             "_trickle": {
               "type": "object",
               "required": false,
-              "legend": "Trickle o Goteo",
+              "legend": "Efecto en cascada",
               "properties": {
                 "_completionAttribute": {
                   "type": "string",
@@ -68,13 +68,13 @@
             "_trickle": {
               "type": "object",
               "required": false,
-              "legend": "Trickle",
+              "legend": "Efecto en cascada",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",
                   "required": false,
                   "default": true,
-                  "title": "Habilitar trickle o goteo",
+                  "title": "Habilitar efecto en cascada",
                   "inputType": "Checkbox",
                   "validators": [],
                   "help": "Permite recorrer un recurso por secciones más pequeñas"
@@ -263,7 +263,7 @@
                       "title": "Habilitar icono de botón",
                       "inputType": "Checkbox",
                       "validators": [],
-                      "help": "Muestra un icono junto al texto del botón Trickle o en su lugar. El ícono predeterminado es una pequeña flecha hacia abajo"
+                      "help": "Muestra un icono junto al texto del botón efecto en cascada o en su lugar. El ícono predeterminado es una pequeña flecha hacia abajo"
                     },
                     "text": {
                       "type": "string",
@@ -376,7 +376,7 @@
             "_trickle": {
               "type": "object",
               "required": false,
-              "legend": "Trickle",
+              "legend": "Efecto en cascada",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",
@@ -558,7 +558,7 @@
                       "title": "Habilitar icono de botón",
                       "inputType": "Checkbox",
                       "validators": [],
-                      "help": "Muestra un icono junto al texto del botón Trickle o en su lugar. El ícono predeterminado es una pequeña flecha hacia abajo"
+                      "help": "Muestra un icono junto al texto del botón efecto en cascada o en su lugar. El ícono predeterminado es una pequeña flecha hacia abajo"
                     },
                     "text": {
                       "type": "string",
@@ -622,7 +622,7 @@
                       "type": "string",
                       "required": false,
                       "default": "trickle-button",
-                      "title": "Trickle Plugin",
+                      "title": "Efecto en cascada plugin",
                       "inputType": "Text",
                       "validators": []
                     }
