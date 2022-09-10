@@ -288,7 +288,7 @@
                     "startText": {
                       "type": "string",
                       "required": false,
-                      "default": "Empezar",
+                      "default": "Continuar",
                       "title": "Texto del primer botón",
                       "inputType": "Text",
                       "validators": [],
@@ -298,7 +298,7 @@
                     "startAriaLabel": {
                       "type": "string",
                       "required": false,
-                      "default": "Empezar",
+                      "default": "Continuar",
                       "title": "Etiqueta Aria del primer botón",
                       "inputType": "Text",
                       "validators": [],
@@ -396,6 +396,7 @@
                 "_autoScroll": {
                   "type": "boolean",
                   "required": false,
+                  "default": true,
                   "title": "Desplazarse automáticamente",
                   "inputType": "Checkbox",
                   "validators": []
@@ -581,7 +582,7 @@
                     "startText": {
                       "type": "string",
                       "required": false,
-                      "default": "Empezar",
+                      "default": "Continuar",
                       "title": "Texto del primer botón",
                       "inputType": "Text",
                       "validators": [],
@@ -591,7 +592,7 @@
                     "startAriaLabel": {
                       "type": "string",
                       "required": false,
-                      "default": "Empezar",
+                      "default": "Continuar",
                       "title": "Etiqueta Aria del primer botón",
                       "inputType": "Text",
                       "validators": [],
