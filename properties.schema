@@ -8,7 +8,7 @@
       "type": "string",
       "required": true,
       "title": "Contenido incompleto",
-      "default": "Hay contenido incompleto arriba. Debe completarllo antes de continuar con el Recurso.",
+      "default": "Hay contenido incompleto arriba. Debe completarlo antes de continuar con el Recurso.",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -107,7 +107,7 @@
                   "title": "Habilitar en bloques secundarios",
                   "inputType": "Checkbox",
                   "validators": [],
-                  "help": "Establecer en falso en el artículo para usar goteo a nivel de artículo"
+                  "help": "Establecer en falso en el artículo para usar efecto en cascada a nivel de artículo"
                 },
                 "_scrollTo": {
                   "type": "string",
@@ -116,7 +116,7 @@
                   "title": "Desplazarse a",
                   "inputType": "Text",
                   "validators": [],
-                  "help": "Establecer cómo se desplaza el goteo"
+                  "help": "Establecer cómo se desplaza el efecto en cascada"
                 },
                 "_completionAttribute": {
                   "type": "string",
@@ -328,8 +328,8 @@
                     "_component": {
                       "type": "string",
                       "required": false,
-                      "default": "botón de goteo",
-                      "title": "Complemento de goteo",
+                      "default": "botón de efecto en cascada",
+                      "title": "Complemento de efecto en cascada",
                       "inputType": "Text",
                       "validators": []
                     }
@@ -382,7 +382,7 @@
                   "type": "boolean",
                   "required": false,
                   "default": true,
-                  "title": "Habilitar goteo",
+                  "title": "Habilitar efecto en cascada",
                   "inputType": "Checkbox",
                   "validators": []
                 },
@@ -420,7 +420,7 @@
                   "title": "Desplazarse a",
                   "inputType": "Text",
                   "validators": [],
-                  "help": "Establecer cómo se desplaza el goteo"
+                  "help": "Establecer cómo se desplaza el efecto en cascada"
                 },
                 "_completionAttribute": {
                   "type": "string",
